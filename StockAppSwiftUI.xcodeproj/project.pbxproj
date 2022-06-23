@@ -15,6 +15,7 @@
 		F0A7041228633BC600FB168B /* Stock.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0A7041128633BC600FB168B /* Stock.swift */; };
 		F0A704152863549800FB168B /* StockListViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0A704142863549800FB168B /* StockListViewModel.swift */; };
 		F0A704172864914800FB168B /* StockViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0A704162864914800FB168B /* StockViewModel.swift */; };
+		F0A7041A28649D9100FB168B /* SearchView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0A7041928649D9100FB168B /* SearchView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -27,6 +28,7 @@
 		F0A7041128633BC600FB168B /* Stock.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Stock.swift; sourceTree = "<group>"; };
 		F0A704142863549800FB168B /* StockListViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StockListViewModel.swift; sourceTree = "<group>"; };
 		F0A704162864914800FB168B /* StockViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StockViewModel.swift; sourceTree = "<group>"; };
+		F0A7041928649D9100FB168B /* SearchView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,6 +61,7 @@
 		F0A703FE28633A6B00FB168B /* StockAppSwiftUI */ = {
 			isa = PBXGroup;
 			children = (
+				F0A7041828649D7F00FB168B /* Views */,
 				F0A704132863546900FB168B /* ViewModels */,
 				F0A7041028633BB200FB168B /* Models */,
 				F0A7040D28633A7900FB168B /* Services */,
@@ -101,6 +104,14 @@
 				F0A704162864914800FB168B /* StockViewModel.swift */,
 			);
 			path = ViewModels;
+			sourceTree = "<group>";
+		};
+		F0A7041828649D7F00FB168B /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				F0A7041928649D9100FB168B /* SearchView.swift */,
+			);
+			path = Views;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -176,6 +187,7 @@
 				F0A7040228633A6B00FB168B /* ContentView.swift in Sources */,
 				F0A7040028633A6B00FB168B /* StockAppSwiftUIApp.swift in Sources */,
 				F0A7041228633BC600FB168B /* Stock.swift in Sources */,
+				F0A7041A28649D9100FB168B /* SearchView.swift in Sources */,
 				F0A704172864914800FB168B /* StockViewModel.swift in Sources */,
 				F0A7040F28633A8C00FB168B /* Webservice.swift in Sources */,
 				F0A704152863549800FB168B /* StockListViewModel.swift in Sources */,
