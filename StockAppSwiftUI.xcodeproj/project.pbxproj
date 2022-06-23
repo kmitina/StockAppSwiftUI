@@ -13,6 +13,8 @@
 		F0A7040728633A6D00FB168B /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F0A7040628633A6D00FB168B /* Preview Assets.xcassets */; };
 		F0A7040F28633A8C00FB168B /* Webservice.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0A7040E28633A8C00FB168B /* Webservice.swift */; };
 		F0A7041228633BC600FB168B /* Stock.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0A7041128633BC600FB168B /* Stock.swift */; };
+		F0A704152863549800FB168B /* StockListViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0A704142863549800FB168B /* StockListViewModel.swift */; };
+		F0A704172864914800FB168B /* StockViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0A704162864914800FB168B /* StockViewModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -23,6 +25,8 @@
 		F0A7040628633A6D00FB168B /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		F0A7040E28633A8C00FB168B /* Webservice.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Webservice.swift; sourceTree = "<group>"; };
 		F0A7041128633BC600FB168B /* Stock.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Stock.swift; sourceTree = "<group>"; };
+		F0A704142863549800FB168B /* StockListViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StockListViewModel.swift; sourceTree = "<group>"; };
+		F0A704162864914800FB168B /* StockViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StockViewModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -55,6 +59,7 @@
 		F0A703FE28633A6B00FB168B /* StockAppSwiftUI */ = {
 			isa = PBXGroup;
 			children = (
+				F0A704132863546900FB168B /* ViewModels */,
 				F0A7041028633BB200FB168B /* Models */,
 				F0A7040D28633A7900FB168B /* Services */,
 				F0A703FF28633A6B00FB168B /* StockAppSwiftUIApp.swift */,
@@ -87,6 +92,15 @@
 				F0A7041128633BC600FB168B /* Stock.swift */,
 			);
 			path = Models;
+			sourceTree = "<group>";
+		};
+		F0A704132863546900FB168B /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+				F0A704142863549800FB168B /* StockListViewModel.swift */,
+				F0A704162864914800FB168B /* StockViewModel.swift */,
+			);
+			path = ViewModels;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -162,7 +176,9 @@
 				F0A7040228633A6B00FB168B /* ContentView.swift in Sources */,
 				F0A7040028633A6B00FB168B /* StockAppSwiftUIApp.swift in Sources */,
 				F0A7041228633BC600FB168B /* Stock.swift in Sources */,
+				F0A704172864914800FB168B /* StockViewModel.swift in Sources */,
 				F0A7040F28633A8C00FB168B /* Webservice.swift in Sources */,
+				F0A704152863549800FB168B /* StockListViewModel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
