@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		F0876A4A286A34E2005225F4 /* StockListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0876A49286A34E2005225F4 /* StockListView.swift */; };
 		F0A7040028633A6B00FB168B /* StockAppSwiftUIApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0A703FF28633A6B00FB168B /* StockAppSwiftUIApp.swift */; };
 		F0A7040228633A6B00FB168B /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0A7040128633A6B00FB168B /* ContentView.swift */; };
 		F0A7040428633A6D00FB168B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F0A7040328633A6D00FB168B /* Assets.xcassets */; };
@@ -19,6 +20,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		F0876A49286A34E2005225F4 /* StockListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StockListView.swift; sourceTree = "<group>"; };
 		F0A703FC28633A6B00FB168B /* StockAppSwiftUI.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = StockAppSwiftUI.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F0A703FF28633A6B00FB168B /* StockAppSwiftUIApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StockAppSwiftUIApp.swift; sourceTree = "<group>"; };
 		F0A7040128633A6B00FB168B /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -110,6 +112,7 @@
 			isa = PBXGroup;
 			children = (
 				F0A7041928649D9100FB168B /* SearchView.swift */,
+				F0876A49286A34E2005225F4 /* StockListView.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -185,6 +188,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				F0A7040228633A6B00FB168B /* ContentView.swift in Sources */,
+				F0876A4A286A34E2005225F4 /* StockListView.swift in Sources */,
 				F0A7040028633A6B00FB168B /* StockAppSwiftUIApp.swift in Sources */,
 				F0A7041228633BC600FB168B /* Stock.swift in Sources */,
 				F0A7041A28649D9100FB168B /* SearchView.swift in Sources */,
