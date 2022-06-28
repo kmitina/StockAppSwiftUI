@@ -21,8 +21,10 @@ struct ContentView: View {
     }
     
     var body: some View {
+        
+        let filteredStocks = self.stockListVM.searchTerm.isEmpty ? self.stockListVM.stocks : self.stockListVM.stocks.filter{$0.symbol.starts(with: self.stockListVM.searchTerm)}
       
-        NavigationView {
+        return NavigationView {
             ZStack(alignment: .leading) {
                 Color.black
                     .ignoresSafeArea()
@@ -36,7 +38,7 @@ struct ContentView: View {
                 SearchView(searchTerm: self.$stockListVM.searchTerm)
                     .offset(y: -290)
 
-                StockListView(stocks: self.stockListVM.stocks)
+                StockListView(stocks: filteredStocks)
                     .offset(y: 120)
             }
             .navigationBarTitle("Stocks")
@@ -50,7 +52,6 @@ struct ContentView_Previews: PreviewProvider {
         Group {
             ContentView()
                 .preferredColorScheme(.dark)
-            ContentView()
         }
     }
 }
