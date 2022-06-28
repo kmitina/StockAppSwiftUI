@@ -10,6 +10,6 @@ import Foundation
 struct Article: Decodable {
     
     let title: String
-    let imagURL: String
+    let imageURL: String
     let publication: String
 }
